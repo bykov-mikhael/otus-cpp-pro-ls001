@@ -7,7 +7,7 @@ set(PATCH_VERSION "2" CACHE INTERNAL "Patch version")
 set(PROJECT_VESRION 0.1.${PATCH_VERSION})
 
 # устанавливается имя исполняемого файла
-project(hw-001 VERSION 0.0.1)
+project(hw-001 VERSION ${PROJECT_VESRION})
 
 # подключается папка с главной функцией - main.cpp
 add_subdirectory(src)
