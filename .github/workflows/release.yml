@@ -42,3 +42,4 @@ jobs:
           asset_path: ./hw-001-0.1.${{ github.run_number }}-Linux.deb
           asset_name: hw-001-0.1.${{ github.run_number }}-Linux.deb
           asset_content_type: application/vnd.debian.binary-package
+      - run: ls
