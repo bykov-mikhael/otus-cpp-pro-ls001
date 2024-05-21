@@ -3,6 +3,9 @@
 # проверка минимальной версии установленного cmake
 cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 
+set(PATCH_VERSION "2" CACHE INTERNAL "Patch version")
+set(PROJECT_VESRION 0.1.${PATCH_VERSION})
+
 # устанавливается имя исполняемого файла
 project(hw-001 VERSION 0.0.1)
 

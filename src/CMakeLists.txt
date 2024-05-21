@@ -1,8 +1,5 @@
 cmake_minimum_required(VERSION 3.10 FATAL_ERROR)
 
-set(PATCH_VERSION "2" CACHE INTERNAL "Patch version")
-set(PROJECT_VESRION 0.1.${PATCH_VERSION})
-
 project(hw-001 VERSION ${PROJECT_VESRION})
 
 add_executable(hw-001 main.cpp)
